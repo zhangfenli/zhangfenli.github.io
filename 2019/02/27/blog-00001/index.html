@@ -7,18 +7,18 @@
   
   <title>HexoBlog第一天 | Zhangfen Li</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="搭建环境 安装 Node.js 和 Git ，然后执行：   1234# 安装成功返回版本号`node -v `           `npm -v`     `git --version`  安装 Hexo     12npm install -g hexo-cli  # 安装指令hexo v/version     # 测试指令，安装成功返回版本号   部署 在github上面创建一个仓库，命">
+  <meta name="description" content="1. 搭建环境 安装 Node.js 和 Git ，然后执行：   1234# 安装成功返回版本号`node -v `           `npm -v`     `git --version`  安装 Hexo     12npm install -g hexo-cli  # 安装指令hexo v/version     # 测试指令，安装成功返回版本号   2. 部署 在github上面创建">
 <meta name="keywords" content="HexoBlog">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HexoBlog第一天">
 <meta property="og:url" content="http://yoursite.com/2019/02/27/blog-00001/index.html">
 <meta property="og:site_name" content="Zhangfen Li">
-<meta property="og:description" content="搭建环境 安装 Node.js 和 Git ，然后执行：   1234# 安装成功返回版本号`node -v `           `npm -v`     `git --version`  安装 Hexo     12npm install -g hexo-cli  # 安装指令hexo v/version     # 测试指令，安装成功返回版本号   部署 在github上面创建一个仓库，命">
+<meta property="og:description" content="1. 搭建环境 安装 Node.js 和 Git ，然后执行：   1234# 安装成功返回版本号`node -v `           `npm -v`     `git --version`  安装 Hexo     12npm install -g hexo-cli  # 安装指令hexo v/version     # 测试指令，安装成功返回版本号   2. 部署 在github上面创建">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-02-27T10:46:18.266Z">
+<meta property="og:updated_time" content="2019-02-27T10:52:15.889Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HexoBlog第一天">
-<meta name="twitter:description" content="搭建环境 安装 Node.js 和 Git ，然后执行：   1234# 安装成功返回版本号`node -v `           `npm -v`     `git --version`  安装 Hexo     12npm install -g hexo-cli  # 安装指令hexo v/version     # 测试指令，安装成功返回版本号   部署 在github上面创建一个仓库，命">
+<meta name="twitter:description" content="1. 搭建环境 安装 Node.js 和 Git ，然后执行：   1234# 安装成功返回版本号`node -v `           `npm -v`     `git --version`  安装 Hexo     12npm install -g hexo-cli  # 安装指令hexo v/version     # 测试指令，安装成功返回版本号   2. 部署 在github上面创建">
   
     <link rel="alternate" href="/atom.xml" title="Zhangfen Li" type="application/atom+xml">
   
@@ -91,7 +91,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h4 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h4><ul>
+        <h4 id="1-搭建环境"><a href="#1-搭建环境" class="headerlink" title="1. 搭建环境"></a>1. 搭建环境</h4><ul>
 <li><p>安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a> 和 <a href="https://git-scm.com/" target="_blank" rel="noopener">Git</a> ，然后执行：</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 安装成功返回版本号</span><br><span class="line">`node -v `           </span><br><span class="line">`npm -v`     </span><br><span class="line">`git --version`</span><br></pre></td></tr></table></figure>
 </li>
@@ -99,31 +99,31 @@
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli  # 安装指令</span><br><span class="line">hexo v/version     # 测试指令，安装成功返回版本号</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-<h4 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h4><ul>
+<h4 id="2-部署"><a href="#2-部署" class="headerlink" title="2. 部署"></a>2. 部署</h4><ul>
 <li><p>在<code>github</code>上面创建一个仓库，命名格式：<code>username.github.io</code>，<code>username</code> 是 <code>github</code> 上的 <code>username</code>，命名的时候全用小写字母，即使你的用户名是大写字母  ,修改项目根目录的<code>_config.yml</code>的部署设置</p>
   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    # 可以是其他类型，具体见 Hexo docs</span><br><span class="line">    type: git</span><br><span class="line">    # 仓库地址</span><br><span class="line">    repository: https://github.com/username/username.github.io.git</span><br></pre></td></tr></table></figure>
 <p>  <a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="noopener">参考资源-简书</a></p>
 </li>
 </ul>
-<h4 id="学习使用markdown"><a href="#学习使用markdown" class="headerlink" title="学习使用markdown"></a>学习使用markdown</h4><p><a href="http://xianbai.me/learn-md/article/syntax/links.html" target="_blank" rel="noopener">学习资源</a></p>
-<h4 id="知识库"><a href="#知识库" class="headerlink" title="知识库"></a>知识库</h4><p><strong>Hexo：</strong><br>      Hexo是一个<code>快速</code>、<code>简洁</code>且<code>高效</code>的博客框架。Hexo 使用 <code>Markdown</code>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成<code>静态网页</code>。</p>
-<p><strong>部署到github的原理：</strong>     </p>
-<ol>
-<li>Hexo -g 会生成一个静态网站（第一次会生成一个public目录），这个静态文件可以直接访问。    </li>
-<li>需要将hexo生成的静态网站，提交(git commit)到github上</li>
-<li>可以通过发布链接来直接访问。   </li>
-</ol>
-<h4 id="遗留问题"><a href="#遗留问题" class="headerlink" title="遗留问题"></a>遗留问题</h4><ol>
+<h4 id="3-学习使用markdown"><a href="#3-学习使用markdown" class="headerlink" title="3. 学习使用markdown"></a>3. 学习使用markdown</h4><p><a href="http://xianbai.me/learn-md/article/syntax/links.html" target="_blank" rel="noopener">学习资源</a></p>
+<h4 id="4-知识库"><a href="#4-知识库" class="headerlink" title="4. 知识库"></a>4. 知识库</h4><ul>
+<li><p><strong>Hexo：</strong>    </p>
+<pre><code>Hexo是一个`快速`、`简洁`且`高效`的博客框架。Hexo 使用 `Markdown`（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成`静态网页`。
+</code></pre></li>
+<li><p><strong>部署到github的原理：</strong><br>  1、Hexo -g 会生成一个静态网站（第一次会生成一个public目录），这个静态文件可以直接访问<br>  2、需要将hexo生成的静态网站，提交(git commit)到github上<br>  3、 可以通过发布链接来直接访问   </p>
+</li>
+</ul>
+<h4 id="5-遗留问题"><a href="#5-遗留问题" class="headerlink" title="5. 遗留问题"></a>5. 遗留问题</h4><ul>
 <li>如何自定义域名   </li>
 <li>如何自定义样式    </li>
 <li>如何在后台在线编辑修改文章   </li>
 <li>如果文章数量变大，如何管理文章 </li>
-</ol>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/02/27/blog-00001/" data-id="cjsn2rsxs0000asvlwjh6brzb" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/02/27/blog-00001/" data-id="cjsn2zxeo0000v8vlo8pbknxr" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HexoBlog/">HexoBlog</a></li></ul>
