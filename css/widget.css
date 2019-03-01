@@ -5,6 +5,7 @@
 .widget a {
   color: #bfbfbf;
   text-decoration: none;
+  font-size: smaller;
 }
 .widget a:hover {
   color: #0085a1;
@@ -14,7 +15,7 @@
 .widget ol ul,
 .widget ul ol,
 .widget ol ol {
-  margin-left: 0 10px;
+  margin-left: 10px;
 ul
   list-style: disc;
 }
